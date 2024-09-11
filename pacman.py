@@ -10,8 +10,8 @@ Exercises
 """
 
 from random import choice
-from turtle import *
-
+from turtle import Turtle, bgcolor, clear, up, goto, dot, update, ontimer
+from turtle import setup, hideturtle, tracer, listen, onkey, done
 from freegames import floor, vector
 
 state = {'score': 0}
@@ -150,7 +150,7 @@ def move():
 
     update()
 
-    for point, course in ghosts:
+    for point, _ in ghosts:
         if abs(pacman - point) < 20:
             return
 
