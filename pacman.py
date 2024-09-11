@@ -149,10 +149,10 @@ def move():
         else:
             # Si el camino no es válido,el fantasma cambia de dirección al azar
             options = [
-                vector(5, 0),
-                vector(-5, 0),
-                vector(0, 5),
-                vector(0, -5),
+                vector(10, 0),
+                vector(-10, 0),
+                vector(0, 10),
+                vector(0, -10),
             ]
             plan = choice(options)
             course.x = plan.x
@@ -186,16 +186,16 @@ hideturtle()
 tracer(False)
 
 # Configura la posición del contador de puntaje
-writer.goto(160, 160)
+writer.goto(180, 190)
 writer.color('white')
 writer.write(state['score'])
 
 # Configura las teclas de control para mover a Pacman
 listen()
-onkey(lambda: change(5, 0), 'Right')
-onkey(lambda: change(-5, 0), 'Left')
-onkey(lambda: change(0, 5), 'Up')
-onkey(lambda: change(0, -5), 'Down')
+onkey(lambda: change(10, 0), 'Right')
+onkey(lambda: change(-10, 0), 'Left')
+onkey(lambda: change(0, 10), 'Up')
+onkey(lambda: change(0, -10), 'Down')
 
 # Dibuja el mundo inicial y comienza el ciclo de movimiento
 world()
