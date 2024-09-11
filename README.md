@@ -2,7 +2,8 @@
 Repositorio del proyecto de la semana tec "Herramientas computacionales: el arte de la programación" Trabajo Colaborativo
 
 
-
+<h3>Hiram Israel Mendoza López</h3>
+<h3>A01613963</h3>
 
 <h1>Juego de Pacman </h1>
 Cambios Realizados:
