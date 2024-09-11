@@ -21,3 +21,15 @@ Cambios Realizados:
     <td><img width="413" alt="Captura de pantalla 2024-09-11 a la(s) 1 08 10 a m" src="https://github.com/user-attachments/assets/fb3c9e94-a397-4f7a-a48a-c71bae0a19bd"></td>
   </tr>
 </table>
+
+<table>
+  <tr>
+
+
+https://github.com/user-attachments/assets/377e9f7b-c415-4796-84a0-5d9ccf938564
+
+
+  </tr>
+</table>
+
+
