@@ -13,6 +13,23 @@ from turtle import (up, goto, down, circle, update, setup, color, width,
 
 from freegames import line
 
+marked_cells = []
+
+
+def mark_cell(x, y):
+    x = floor(x)
+    y = floor(y)
+    marked_cells.append([x, y])
+
+
+def cell_not_marked(x, y):
+    x = floor(x)
+    y = floor(y)
+    for cell in marked_cells:
+        if [x, y] == cell:
+            return False
+    return True
+
 
 def grid():
     """Draw tic-tac-toe grid."""
@@ -53,13 +70,15 @@ players = [drawx, drawo]
 
 def tap(x, y):
     """Draw X or O in tapped square."""
-    x = floor(x)
-    y = floor(y)
-    player = state['player']
-    draw = players[player]
-    draw(x, y)
-    update()
-    state['player'] = not player
+    if cell_not_marked(x, y):
+        x = floor(x)
+        y = floor(y)
+        player = state['player']
+        draw = players[player]
+        draw(x, y)
+        update()
+        state['player'] = not player
+        mark_cell(x, y)
 
 
 setup(420, 420, 370, 0)
