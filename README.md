@@ -5,6 +5,9 @@ Repositorio del proyecto de la semana tec "Herramientas computacionales: el arte
 <h3>Hiram Israel Mendoza López</h3>
 <h3>A01613963</h3>
 
+<h3>Juan Manuel Murillo López</h3>
+<h3>A01712218</h3>
+
 <h1>Juego de Pacman </h1>
 Cambios Realizados:
 
@@ -28,6 +31,14 @@ Cambios Realizados:
 
 
 https://github.com/user-attachments/assets/377e9f7b-c415-4796-84a0-5d9ccf938564
+
+<h1>Juego de Tic Tac Toe </h1>
+Cambios Realizados:
+
+* Reestructuración de código para la validación de Flake8
+* Adición de comentarios
+* Cambio de grosor y color de los símbolos
+* Verificación de celda ya marcada para evitar doble símbolo
 
 
   </tr>
