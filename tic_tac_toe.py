@@ -16,7 +16,7 @@ from freegames import line
 
 def grid():
     """Draw tic-tac-toe grid."""
-    #Método line recibe la posición de inicio y fin (x, y)
+    # line method recieves start and end position (x, y)
     line(-67, 200, -67, -200)
     line(67, 200, 67, -200)
     line(-200, -67, 200, -67)
@@ -27,7 +27,6 @@ def drawx(x, y):
     """Draw X player."""
     line(x, y, x + 133, y + 133)
     line(x, y + 133, x + 133, y)
-    
 
 
 def drawo(x, y):
@@ -42,7 +41,8 @@ def floor(value):
     """Round value down to grid with square size 133."""
     return ((value + 200) // 133) * 133 - 200
 
-#Diccionario para almacenar el estado del juego y conocer el turno actual
+
+# Diccionary to save the game state and store the actual turn
 state = {'player': 0}
 players = [drawx, drawo]
 
