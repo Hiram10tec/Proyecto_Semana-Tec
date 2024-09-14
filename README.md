@@ -8,6 +8,9 @@ Repositorio del proyecto de la semana tec "Herramientas computacionales: el arte
 <h3>Juan Manuel Murillo López</h3>
 <h3>A01712218</h3>
 
+<h3>Gael Alberto Terán Cásares</h3>
+<h3>A01613750</h3>
+
 <h1>Juego de Pacman </h1>
 Cambios Realizados:
 
@@ -43,5 +46,10 @@ Cambios Realizados:
 
   </tr>
 </table>
+
+<h1>Juego de Memoria </h1>
+Cambios Realizados:
+
+
 
 
