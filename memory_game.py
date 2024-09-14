@@ -77,9 +77,14 @@ def draw():
         write(tiles[mark], font=('Arial', 30, 'normal'))
     #Muestra los taps
     up()
-    goto(-150, -210)
+    goto(-200, -250)
     color("black")
     write(f'Taps: {taps}')
+
+    #Detecta si todos los cuadros han sido destapados
+    if True not in hide:
+        goto(-50,0)
+        write("Lo lograste!")
 
     update()
     ontimer(draw, 100)
