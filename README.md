@@ -49,10 +49,11 @@ Cambios Realizados:
 
 <h1>Juego de Memoria </h1>
 Cambios Realizados:
-* Reestructuración de código para la validación de Flake8
-* Adición de comentarios
-* Contador de taps
-* Verificación de que todas las tiles sean descubiertas
-
+<ul>
+    <li>Reestructuración de código para la validación de Flake8</li>
+    <li>Adición de comentarios</li>
+    <li>Contador de taps</li>
+    <li>Verificación de que todas las tiles sean descubiertas</li>
+</ul>
 
 
